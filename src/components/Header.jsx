@@ -35,7 +35,7 @@ const Header = ({ cart, removeFromCart, decreaseQuantity, increaseQuantity, clea
                                                                 <td className="align-middle">
                                                                     <img
                                                                         className="img-fluid"
-                                                                        src={`img/${image}.jpg`}
+                                                                        src={`./img/${image}.jpg`}
                                                                         alt={`Imagen de ${name}`}
                                                                     />
                                                                 </td>
